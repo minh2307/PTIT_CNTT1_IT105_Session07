@@ -1,14 +1,7 @@
 1. kiến trúc 3 tầng tổng thể
-+--------------------------------------------------+
-|                Presentation Tier                 |
-|     (Web UI / Mobile App / Admin Dashboard)      |
-+--------------------------------------------------+
-|                Business Logic Tier               |
-|  (ProductService, SupplierService, InventoryMgr) |
-+--------------------------------------------------+
-|                Data Access Tier                  |
-|     (ProductDAO, SupplierDAO, Database)          |
-+--------------------------------------------------+
+Presentation Tier: (Web UI / Mobile App / Admin Dashboard)      
+Business Logic Tier: (ProductService, SupplierService, InventoryMgr) 
+Data Access Tier: (ProductDAO, SupplierDAO, Database)          
 
 2. Mô tả logic từng tầng
     1. Presentation Tier (Tầng giao diện)
